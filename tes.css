@@ -5,11 +5,64 @@
 body {
     background: #D9D9D9;
 }
-/* SIDEBAR */
 .sidebar {
     background: #260354;
-    max-width: 190px;
-    min-width: 190px;
+    width: 20%;
+    position: relative;   
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.sidebar .side_header {
+    background-color: #170033b9;
+    width: 100%;
+}
+
+.sidebar .side_header img {
+    max-height: 125px;
+    max-width: 125px;
+    padding: 10px;  
+}
+
+.sidebar .side_header .judul {
+    text-align: center;
+    color: #fff;
+    font-size: larger;
+}
+
+.sidebar ul li {
+    line-height: 75px;
+    border-bottom: 1px #3c3838 solid;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+
+
+.sidebar ul a {
+    color: #fff;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.sidebar ul a :hover {
+    background-color: #0c001b;
+    cursor: pointer;
+    border-left: 10px solid #fff;
+    transition: 0.4s;
+}
+
+#menu_logout :hover {
+    background-color: #0c001b;
+    cursor: pointer;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;  
 }
 
 .garis {
@@ -17,18 +70,21 @@ body {
     
 }
 
-.garis2 {
-    color: white;
-    margin-top: 200px;    
-}
 
 .konten {
     min-height: 100vh;
     width: 100%;
 }
+
+
+/* .sidebar #menu  :hover {
+   color: black;
+   transform:matrix(1.1)
+    
+} */
+
 .sidebar li a {
     color: white;
     
 }
-
 /* TUTUP SIDEBAR */
